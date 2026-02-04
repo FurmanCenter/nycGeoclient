@@ -1,0 +1,21 @@
+Package: nycGeoclient
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Furman", "Center", , "first.last@example.com", role = c("aut", "cre"))
+Description: R interface for NYC's Geoclient API.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.4)
+Imports:
+    rlang,
+    httr,
+    jsonlite,
+    glue,
+    dplyr,
+    purrr,
+    stringr,
+    ratelimitr,
+    progress
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
